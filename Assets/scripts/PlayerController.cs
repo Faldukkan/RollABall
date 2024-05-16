@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class Movment : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private Rigidbody rd;
     private float movX;
@@ -26,6 +26,7 @@ public class Movment : MonoBehaviour
         rd.AddForce(movment);   
     }
 
+  
 
 
 }
